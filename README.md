@@ -1,5 +1,12 @@
 # GCC useful flags for compiling ANSI C and C++
 
+### Those flags can be used when running GCC to compile C and C++ source code
+
+for example:
+
+`gcc -Wall -Wredundant-decls -Wundef source.c -o opt`
+
+flags :
 ```
 -Wredundant-decls
 -Wundef
@@ -19,5 +26,4 @@
 -Wundef -Wpointer-arith
 -Wnested-externs // C and ObjC Only
 -Wfloat-conversion
-
 ```
